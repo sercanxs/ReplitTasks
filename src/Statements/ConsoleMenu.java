@@ -8,6 +8,7 @@ public class ConsoleMenu {
 		System.out.println("hello");
 		System.out.println("hi");
 		//sadsadad
+		System.out.println(Long.MAX_VALUE);
 	}
 	
 	
