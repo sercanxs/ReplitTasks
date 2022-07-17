@@ -10,7 +10,10 @@ public class ConsoleMenu {
 		
 		int a = sc.nextInt();
 		
+		sc.nextLine();
+		String b = sc.nextLine(); 
 		System.out.println(a);
+		System.out.println(b);
 		
 		
 		System.out.println("hello");
