@@ -8,7 +8,7 @@ public class LaptopConfigurator {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int x = 0;
+		double x = 0;
 		System.out.println("Select screen size:");
 		
 		double scsize = sc.nextDouble();
@@ -42,22 +42,22 @@ public class LaptopConfigurator {
 		else if(scsize==15.0) {x=x+300;}
 		else if(scsize==17.3) {x=x+400;}
 		
-		if(cpu=="i3") {x+=150;}
-		else if(cpu=="i5") {x+=250;}
-		else if (cpu=="i7") {x+=350;}
+		if(cpu=="i3") {x=x+150;}
+		else if(cpu=="i5") {x=x+250;}
+		else if (cpu=="i7") {x=x+350;}
 		
-		x+=rsize/4*50;
+		x=x+rsize/4*50;
 		
 		if(stype=="SDD") {
 			
-			x+=msize/500*100;
+			x=x+msize/500*100;
 			
 		}else if (stype=="HDD") {
-			x+=msize/500*50;
+			x=x+msize/500*50;
 		}
 		
 		
-		if(stype=="FULLHD") {x+=100;}else if(stype=="4K") {x+=200;}
+		if(stype=="FULLHD") {x=x+100;}else if(stype=="4K") {x=x+200;}
 		
 		
 		
