@@ -8,9 +8,20 @@ public class LaptopConfigurator {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("");
 		
+		System.out.println("");		
 		
-		
+		System.out.println("");
+	
+		System.out.println("");
+	
+		System.out.println("");
+	
+		System.out.println("");
+	
+		System.out.println("");
+	
 	}
 	
 	
