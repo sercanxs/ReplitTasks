@@ -9,7 +9,7 @@ public class Calendar {
 		
 		// DO NOT CHANGE
 	     Scanner scan = new Scanner (System.in);
-	     System.out.println("Enter month number");
+	     System.out.println("Enter month number:");
 	     int monthNum = scan.nextInt();
 	     
 	       //WRITE YOUR CODE HERE:
