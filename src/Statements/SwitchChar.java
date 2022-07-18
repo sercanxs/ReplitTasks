@@ -14,8 +14,14 @@ public class SwitchChar {
 
 		switch(response) {
 		
-		
-		
+		case 'y':System.out.println("");
+		break;
+		case 'n':System.out.println("");
+		break;
+		case 'h':System.out.println("");
+		break;
+			default:System.out.println("");
+		break;
 		
 		
 		}
