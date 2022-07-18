@@ -15,17 +15,17 @@ public class Calendar {
 	       //WRITE YOUR CODE HERE:
 	       
 	     if(monthNum==1) {System.out.println();}
-	     else if (monthNum==2) {}
-	     else if (monthNum==3) {}
-	     else if (monthNum==4) {}
-	     else if (monthNum==5) {}
-	     else if (monthNum==6) {}
-	     else if (monthNum==7) {}
-	     else if (monthNum==8) {}
-	     else if (monthNum==9) {}
-	     else if (monthNum==10) {}
-	     else if (monthNum==11) {}
-	     else if (monthNum==12) {}
+	     else if (monthNum==2) {System.out.println();}
+	     else if (monthNum==3) {System.out.println();}
+	     else if (monthNum==4) {System.out.println();}
+	     else if (monthNum==5) {System.out.println();}
+	     else if (monthNum==6) {System.out.println();}
+	     else if (monthNum==7) {System.out.println();}
+	     else if (monthNum==8) {System.out.println();}
+	     else if (monthNum==9) {System.out.println();}
+	     else if (monthNum==10) {System.out.println();}
+	     else if (monthNum==11) {System.out.println();}
+	     else if (monthNum==12) {System.out.println();}
 		
 		
 		
