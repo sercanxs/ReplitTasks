@@ -14,7 +14,7 @@ public class Calendar {
 	     
 	       //WRITE YOUR CODE HERE:
 	       
-	     if(monthNum==1) {}
+	     if(monthNum==1) {System.out.println();}
 	     else if (monthNum==2) {}
 	     else if (monthNum==3) {}
 	     else if (monthNum==4) {}
