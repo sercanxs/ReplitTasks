@@ -11,15 +11,31 @@ public class LaptopConfigurator {
 		int x = 0;
 		System.out.println("Select screen size:");
 		
+		double scsize = sc.nextDouble();
+		
 		System.out.println("Select CPU type:");		
 		
+		sc.nextLine();
+		
+		String cpu = sc.nextLine();
+		
 		System.out.println("Select RAM size:");
+		
+		int rsize = sc.nextInt();
 	
 		System.out.println("Select storage type:");
+		
+		sc.nextLine();
+		String stype = sc.nextLine();
 	
 		System.out.println("Enter memory size:");
+		
+		int msize = sc.nextInt();
 	
 		System.out.println("Enter screen resolution:");
+		
+		sc.nextLine();
+		String sresolution = sc.nextLine();
 	
 		System.out.println("Laptop price is: "+x);
 	
