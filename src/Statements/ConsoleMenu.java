@@ -21,11 +21,11 @@ public class ConsoleMenu {
 	    //your code here:
 	    
 	    if(choice==1) {
-	    	System.out.println("");
+	    	System.out.println("user selected 1");
 	    }else if (choice==2) {
-	    	System.out.println("");
+	    	System.out.println("user selected 2");
 	    }else if (choice==3) {
-	    	System.out.println("");
+	    	System.out.println("user selected 3");
 	    	
 	    }
 	    
