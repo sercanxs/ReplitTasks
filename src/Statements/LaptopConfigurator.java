@@ -13,11 +13,14 @@ public class LaptopConfigurator {
 		
 		double scsize = sc.nextDouble();
 		
+		
 		System.out.println("Select CPU type:");		
+		
 		
 		sc.nextLine();
 		
 		String cpu = sc.nextLine();
+		
 		
 		System.out.println("Select RAM size:");
 		
@@ -28,6 +31,7 @@ public class LaptopConfigurator {
 		sc.nextLine();
 		String stype = sc.nextLine();
 	
+	
 		System.out.println("Enter memory size:");
 		
 		int msize = sc.nextInt();
@@ -37,27 +41,32 @@ public class LaptopConfigurator {
 		sc.nextLine();
 		String sresolution = sc.nextLine();
 	
+	
 		
 		if(scsize==13.3) {x=x+200;}
 		else if(scsize==15.0) {x=x+300;}
 		else if(scsize==17.3) {x=x+400;}
 		
-		if(cpu=="i3") {x=x+150;}
-		else if(cpu=="i5") {x=x+250;}
-		else if (cpu=="i7") {x=x+350;}
+		
+		
+		if(cpu.equals("i3")) {x=x+150;}
+		else if(cpu.equals("i5")) {x=x+250;}
+		else if (cpu.equals("i7")) {x=x+350;}
+		
 		
 		x=x+rsize/4*50;
-		
-		if(stype=="SDD") {
+		;
+		if(stype.equals("SSD")) {
 			
 			x=x+msize/500*100;
 			
-		}else if (stype=="HDD") {
+		}else if (stype.equals("HDD")) {
 			x=x+msize/500*50;
 		}
 		
 		
-		if(stype=="FULLHD") {x=x+100;}else if(stype=="4K") {x=x+200;}
+		if(sresolution.equals("FULLHD")) {x=x+100;}
+		else if(sresolution.equals("4K")) {x=x+200;}
 		
 		
 		

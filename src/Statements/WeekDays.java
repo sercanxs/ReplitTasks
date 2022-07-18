@@ -6,7 +6,9 @@ public class WeekDays {
 
 	public static void main(String[] args) {
 	
+	String a ="hello";
 	
+	if(a=="hello") {System.out.println("yestru");}
 
 		 // DO NOT CHANGE
 	     Scanner scan = new Scanner(System.in);
