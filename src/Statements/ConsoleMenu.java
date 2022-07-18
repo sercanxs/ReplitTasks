@@ -20,6 +20,14 @@ public class ConsoleMenu {
 	    
 	    //your code here:
 	    
+	    if(choice==1) {
+	    	System.out.println("");
+	    }else if (choice==2) {
+	    	System.out.println("");
+	    }else if (choice==3) {
+	    	System.out.println("");
+	    	
+	    }
 	    
 	}
 	
