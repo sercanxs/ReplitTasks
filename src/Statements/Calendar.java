@@ -26,6 +26,7 @@ public class Calendar {
 	     else if (monthNum==10) {System.out.println("October");}
 	     else if (monthNum==11) {System.out.println("November");}
 	     else if (monthNum==12) {System.out.println("December");}
+	     else {System.out.println("Invalid month number");}
 		
 		
 		
