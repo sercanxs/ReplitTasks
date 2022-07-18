@@ -12,7 +12,13 @@ public class SwitchChar {
 	    char response = scan.next().charAt(0);
 	    //WRITE YOUR CODE HERE 
 
+		switch(response) {
 		
+		
+		
+		
+		
+		}
 		
 		
 		
