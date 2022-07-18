@@ -8,19 +8,20 @@ public class LaptopConfigurator {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("");
+		int x = 0;
+		System.out.println("Select screen size:");
 		
-		System.out.println("");		
+		System.out.println("Select CPU type:");		
 		
-		System.out.println("");
+		System.out.println("Select RAM size:");
 	
-		System.out.println("");
+		System.out.println("Select storage type:");
 	
-		System.out.println("");
+		System.out.println("Enter memory size:");
 	
-		System.out.println("");
+		System.out.println("Enter screen resolution:");
 	
-		System.out.println("");
+		System.out.println("Laptop price is: "+x);
 	
 	}
 	
