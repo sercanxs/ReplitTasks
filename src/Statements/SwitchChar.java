@@ -14,13 +14,13 @@ public class SwitchChar {
 
 		switch(response) {
 		
-		case 'y':System.out.println("");
+		case 'y':System.out.println("Your request is being processed");
 		break;
-		case 'n':System.out.println("");
+		case 'n':System.out.println("Thank you anyway for your consideration");
 		break;
-		case 'h':System.out.println("");
+		case 'h':System.out.println("Sorry, no help is currently available");
 		break;
-			default:System.out.println("");
+			default:System.out.println("Invalid entry, please try again!");
 		break;
 		
 		
