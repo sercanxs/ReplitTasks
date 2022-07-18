@@ -37,6 +37,22 @@ public class LaptopConfigurator {
 		sc.nextLine();
 		String sresolution = sc.nextLine();
 	
+		
+		if(scsize==13.3) {x=x+200;}
+		else if(scsize==15.0) {x=x+300;}
+		else if(scsize==17.3) {x=x+400;}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		System.out.println("Laptop price is: "+x);
 	
 	}
