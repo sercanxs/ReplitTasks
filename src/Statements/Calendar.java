@@ -14,6 +14,8 @@ public class Calendar {
 	     
 	       //WRITE YOUR CODE HERE:
 	       
+	     if(monthNum==1) {}
+	     else if (monthNum==2) {}
 		
 		
 		
