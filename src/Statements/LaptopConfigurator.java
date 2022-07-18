@@ -42,6 +42,22 @@ public class LaptopConfigurator {
 		else if(scsize==15.0) {x=x+300;}
 		else if(scsize==17.3) {x=x+400;}
 		
+		if(cpu=="i3") {x+=150;}
+		else if(cpu=="i5") {x+=250;}
+		else if (cpu=="i7") {x+=350;}
+		
+		x+=rsize/4*50;
+		
+		if(stype=="SDD") {
+			
+			x+=msize/500*100;
+			
+		}else if (stype=="HDD") {
+			x+=msize/500*50;
+		}
+		
+		
+		if(stype=="FULLHD") {x+=100;}else if(stype=="4K") {x+=200;}
 		
 		
 		
@@ -53,7 +69,7 @@ public class LaptopConfigurator {
 		
 		
 		
-		System.out.println("Laptop price is: "+x);
+		System.out.println("Laptop price is: $"+x);
 	
 	}
 	
