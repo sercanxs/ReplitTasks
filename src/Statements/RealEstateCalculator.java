@@ -19,9 +19,13 @@ public static void main(String[] args) {
     //WRITE YOUR CODE HERE
 
 		System.out.println("Enter your property type:");
+		houseType=scan.nextLine();
 		System.out.println("How many bedrooms do you have?");
+		numberOfBedrooms=scan.nextInt();
+		
 		System.out.println("Do you have a backyard?");
 		backyard=scan.nextBoolean();
+		
 		
 		
 		System.out.println("");
