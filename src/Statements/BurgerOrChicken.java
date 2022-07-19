@@ -22,6 +22,7 @@ public class BurgerOrChicken {
 			System.out.println(2.0);
 		}else if(order.equals("fries")) {
 			
+			
 			System.out.println(3.5);
 		}
 		
