@@ -14,7 +14,8 @@ public class IfStatementGrades {
 	    //Write your code here:
 
 		
-		
+		if(grade>90) {}
+		if(grade>70) {}
 		
 		
 		
