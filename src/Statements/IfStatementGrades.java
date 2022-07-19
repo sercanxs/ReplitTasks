@@ -14,8 +14,10 @@ public class IfStatementGrades {
 	    //Write your code here:
 
 		
-		if(grade>90) {}
-		if(grade>70) {}
+		if(grade>90) {System.out.println("excellent");}
+		if(grade>70&grade<90) {System.out.println("good");}
+		if(grade>60&grade<90) {System.out.println("pass");}
+		if(grade<61) {System.out.println("fail");}
 		
 		
 		
