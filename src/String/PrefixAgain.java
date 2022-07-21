@@ -22,9 +22,12 @@ if(n>str.length()) {
 }	
 
 System.out.println(str.substring(0,1));
-if(str.contains(str.substring(0,1))) {
+if(str.substring(n).contains(str.substring(0,n))) {
+	System.out.println("true");
 	
 	
+}else {
+	System.out.println("false");
 }
 
 
