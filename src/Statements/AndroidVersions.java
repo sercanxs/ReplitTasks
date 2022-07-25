@@ -1,5 +1,6 @@
 package Statements;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class AndroidVersions {
@@ -12,7 +13,8 @@ public static void main(String[] args) {
     double version = input.nextDouble();
     
     //WRITE YOUR CODE HERE:
-    
+    String[] a = {"hi","mike","true","tato","toti"};
+    System.out.println(Arrays.toString(a));
     
     if(version==1.5) {System.out.println("Cupcake");}
     else if(version==1.6) {System.out.println("Donut");}
