@@ -14,8 +14,9 @@ public static void main(String[] args) {
     
     //TODO. Write you code below this line. 
     
-    int count=0;
-	
+    int count=1;
+	int[] b=Arrays.copyOf(inhabitants, inhabitants.length); 
+    System.out.println("Day 0"+" "+Arrays.toString(inhabitants));
 	for(int a=1;a!=0;a--) {
 		
 		
@@ -26,17 +27,18 @@ public static void main(String[] args) {
 		if(inhabitants[i]!=0) {a=2;}
 		
 		if(i!=0&i<inhabitants.length-1) {                                                             
-		if(inhabitants[i+1]==0|inhabitants[i-1]==0) {   inhabitants[i]=inhabitants[i]/2;               }
+		if(b[i+1]==0|b[i-1]==0) {   inhabitants[i]=inhabitants[i]/2;               }
 		
 		
-		  }else if(i==0) {if(inhabitants[i+1]==0) {  inhabitants[i]=inhabitants[i]/2;}      }                          
-		  else if(i==inhabitants.length-1) { if(inhabitants[i-1]==0) {    inhabitants[i]=inhabitants[i]/2;              }                                     }
+		  }else if(i==0) {if(b[i+1]==0) {  inhabitants[i]=inhabitants[i]/2;}      }                          
+		  else if(i==inhabitants.length-1) { if(b[i-1]==0) {    inhabitants[i]=inhabitants[i]/2;              }                                     }
 	
 
 		
 			  
 	}
-	System.out.println("Day "+count+" "+Arrays.toString(inhabitants));
+	 b=Arrays.copyOf(inhabitants, inhabitants.length); 
+	if(a!=1) {System.out.println("Day "+count+" "+Arrays.toString(inhabitants));}
 	count++;	
 	
 	}	
