@@ -14,10 +14,11 @@ public static void main(String[] args) {
 	    
 	    Arrays.sort(arr);
 	    int a=0;
+	    int b=0;
 	    String c="";
 	    for(int i=0;i<arr.length-1;i++) {
 	    	
-	    	if(arr[i].length()<arr[i+1].length()) {a=arr[i].length();}else {a=arr[i+1].length();}
+	    	if(arr[b].length()<arr[i+1].length()) {a=arr[b].length();}else {a=arr[i+1].length();b=i+1;}
 	    	
 	    		    	
 	    }
