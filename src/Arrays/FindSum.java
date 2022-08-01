@@ -9,17 +9,17 @@ public static void main(String[] args) {
     int[] nums = {input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt(),input.nextInt()};
     // DO NOT TOUCH ABOVE
     //TODO: Write your code below
-    int a=0;
+    int b=0;
     for(int i=0;i<nums.length;i++) {
     	
-    	a=a+nums[i];
+    	b=b+nums[i];
     	
     	
     	
     }
 	
 	
-	System.out.println(a);
+	System.out.println(b);
 	
 	
 	
