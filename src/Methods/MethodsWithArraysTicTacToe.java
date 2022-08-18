@@ -22,7 +22,7 @@ public static void main(String[] args) {
 public static String won(char[] x){
  
 	for(int i=0;i<x.length;i++) {
-		if(x[i]=='X'||x[i]=='Y') {
+		if(x[i]=='X'||x[i]=='O') {
 			if(i==0|i==3|i==6&&x[i]==x[i+1]&x[i+1]==x[i+2]) {
 				return "Player "+x[i]+" won";
 				
